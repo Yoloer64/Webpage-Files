@@ -1,0 +1,137 @@
+ * {
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+ }
+ 
+ body {
+    background-color: #2B1347;
+    style="font-size: 20px"
+    
+
+  
+  }
+  
+  header {
+    background-color: White;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2);
+    
+  }
+  
+  header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  
+  .header nav h1 {
+    font-size: 30px;
+    font-weight: 600;
+    margin: 0px 0px; 
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+  }
+
+  header h2 {
+    font-size: 30px;
+    font-weight: 600;
+    margin: 0px 0px; 
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+  }
+
+  header h3 {
+    font-size: 30px;
+    font-weight: 600;
+    margin: 0px 0px; 
+    display: inline-block;
+    color: red;
+    text-align: center;
+  }
+
+  .header h4 {
+    font-size: 40px;
+    font-weight: 600;
+    margin: 0px 0px; 
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+  }
+
+  .header h5 {
+    font-size: 50px;
+    font-weight: 600;
+    margin: 0px 0px; 
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+  }
+  
+  header nav .tabs {
+    list-style-type: none;
+  
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  header nav .tabs .tab {
+    display: block;
+  }
+  
+  header nav .tabs .tab a[data-switcher] {
+    display: block;
+    padding: 15px 30px;
+    text-decoration: none;
+    color: #FFF;
+    background-color: royalblue;
+    cursor: pointer;
+  }
+  
+  header nav .tabs .tab:hover a[data-switcher] {
+    background-color: #F7A800;
+  }
+  
+  header nav .tabs .tab.is-active a[data-switcher] {
+    background-color: #F7A800;
+    font-weight: 700;
+  }
+  
+  main {
+    padding-left: 140px;
+    padding-right: 140px;
+  }
+  
+  .pages {
+    margin-top: 100px;
+    padding: 30px 30px;
+    border-radius: 25px;
+    background-color: #FFF;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 1.0);
+  }
+  
+  .pages .page {
+    display: none;
+  }
+  
+  .pages .page.is-active {
+    display: block;
+  }
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+<head>
+<style>
+h3 {text-align: center;}
+div {text-align: center;}
+</style>
+</head>
+
